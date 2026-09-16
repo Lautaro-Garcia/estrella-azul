@@ -1,0 +1,15 @@
+{:deps {org.clojure/clojure {:mvn/version "1.11.1"}
+        http-kit/http-kit {:mvn/version "2.7.0"}
+        metosin/reitit {:mvn/version "0.7.0"}
+        venantius/ultra {:mvn/version "0.6.0"}
+        hiccup/hiccup {:mvn/version "2.0.0"}
+        garden/garden {:mvn/version "1.3.10"}
+        dev.data-star.clojure/sdk {:mvn/version "1.0.0-RC11"}
+        dev.data-star.clojure/ring {:mvn/version "1.0.0-RC11"}
+        dev.data-star.clojure/brotli {:mvn/version "1.0.0-RC11"}
+        dev.data-star.clojure/http-kit {:mvn/version "1.0.0-RC11"}
+        cheshire/cheshire {:mvn/version "6.2.0"}}
+ :aliases
+ {:run {:exec-fn estrella-azul.app/start-server!}
+  :dev {:extra-paths ["src" "dev"]
+        :extra-deps {com.github.brianium/datastar.wow {:mvn/version "1.0.0-RC4-wow0"}}}}}

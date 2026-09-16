@@ -1,0 +1,12 @@
+.git
+.gitignore
+.cpcache
+.lsp
+.clj-kondo
+.rebel_readline_history
+Dockerfile
+docker-compose.yml
+.env
+.env.example
+.dockerignore
+**/*.log

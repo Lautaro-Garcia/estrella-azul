@@ -1,0 +1,22 @@
+# Clojure / tools.deps
+.cpcache/
+.clj-kondo/.cache/
+target/
+pom.xml.asc
+
+# REPL / editor state
+.nrepl-port
+.rebel_readline_history
+.lsp/
+*.swp
+*~
+
+# Secrets & environment
+.env
+
+# Logs
+*.log
+
+# OS cruft
+.DS_Store
+Thumbs.db

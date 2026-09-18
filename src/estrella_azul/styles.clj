@@ -74,11 +74,8 @@
                      :justify-content "center"
                      :position "relative"}]
 
-    ;; Forces the SVG to scale proportionally and fit inside the viewport
     [:.svg-viewport :svg {:max-width "100%"
-                          :max-height "100%"
-                          :width "auto"
-                          :height "auto"}]
+                          :max-height "100%"}]
 
     [:input {:background "transparent"
              :border "1.5px solid var(--text-color)"

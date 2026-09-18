@@ -136,7 +136,7 @@
               archivo)]
     (html
         [:body.full
-         [:div {:data-signals (str "{estrellaDisponible: " (boolean estrella-disponible?) "}")}
+         [:div {:data-signals (str "{estrellaDisponible: " (boolean estrella-disponible?) "}") :style "height: 100vh;"}
           [:main.svg-viewport {:data-on:keydown__window acciones}
            svg]]])))
 
@@ -156,7 +156,7 @@
       [:div.contenedor {:data-on:keydown__window accion-anterior}
        [:div.header
         [:div.font-syncopate "Podio Estelar"]
-        [:div.label "Los viajes más altos"]]
+        [:div.label "Los estrellas estuvieron a su favor"]]
        [:div.podio-grid
         (columna-podio 2 segundo)
         (columna-podio 1 primero)
